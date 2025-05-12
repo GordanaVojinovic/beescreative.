@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Slideshow</title>
+  <link rel="stylesheet" href="Style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="menu-icon mobile-only" id="hamburger" onclick="toggleMenu()">
+    <div class="bar"></div>
+  <div class="bar"></div>
+  <div class="bar"></div>
+</div>
+
+<nav class="mobile-nav mobile-only" id="mobileMenu">
+  <div class="close-btn" onclick="toggleMenu()">×</div>
+  <ul>
+    <li><a href="#about" onclick="toggleMenu()">About</a></li>
+    <li><a href="#services" onclick="toggleMenu()">Services</a></li>
+    <li><a href="#team" onclick="toggleMenu()">Team</a></li>
+    <li><a href="#work" onclick="toggleMenu()">Work</a></li>
+    <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+  </ul>
+</nav>
+    <div class="menu-overlay">
+        <nav class="main-nav">
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#team">Team</a>
+          <a href="#work">Work</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+
+<!-- DESKTOP verzija -->
+<section id="mainpage" class="desktop-only">
+  <img src="Main_page.jpg" alt="Main" width="100%">
+</section>
+
+<!-- MOBILNA verzija -->
+<section id="mainpage-mobile" class="mobile-only">
+  <img src="Tel_mainpage.png" alt="Main Mobile" width="100%">
+</section>
+  
+ <section id="about">
+  <div class="desktop-only">
+    <img src="About.jpg" width="100%">
+  </div>
+  <div class="mobile-only">
+    <img src="Tel_aboutus.png" alt="About Mobile" width="100%">
+  </div>
+</section>
+<div class="hero-button-wrapper">
+    <a href="#services" class="btn-hero">See What We Do!</a>
+  </div>
+
+<!-- DESKTOP verzija -->
+<section class="Mission desktop-only">
+  <img src="Mission.png" alt="Misije">
+</section>
+
+<!-- MOBILNA verzija -->
+<section class="Mission mobile-only">
+  <img src="Tel_mission.png" alt="Misija Mobile">
+</section>
+
+<section id="services">
+  <div class="desktop-only">
+    <img src="Services.png" alt="Usluge" width="100%">
+  </div>
+  <div class="mobile-only">
+    <img src="Tel_service.png" alt="Usluge Mobile" width="100%">
+  </div>
+</section>
+
+<section id="team">
+  <div class="desktop-only">
+    <img src="Team.png" alt="Team Banner" width="100%">
+  </div>
+  <div class="mobile-only">
+    <img src="Tel_team.png" alt="Team Banner Mobile" width="100%">
+  </div>
+</section>
+  <div class="team-button-wrapper">
+    <a href="Božica Konatar CV.pdf" download class="btn-learn">Read More</a>
+  </div>
+  <div class="team-button-wrapper second">
+    <a href="Gordana Vojinović - CV.pdf" download class="btn-learn">Read More</a>
+  </div>
+  
+ <section id="work">
+  <div class="desktop-only">
+    <img src="Work_headline.png" alt="Portfolio" width="100%">
+  </div>
+  <div class="mobile-only">
+    <img src="Tel_work_headline.png" alt="Portfolio Mobile" width="100%">
+  </div>
+</section>
+
+  <div class="work-list">
+    <div class="work">
+      <img src="Projekat1.jpg"> 
+      <div class="layer">
+        <h3>Nature deserves more.</h3>
+        <p>Our biopolymer packaging is more than sustainable — it speaks.
+            Made from renewable materials, fully biodegradable and functional,
+            it proves that brands can care without compromise. The fruits of nature deserve nothing less than nature itself. </p>
+      </div>
+    </div>
+
+    <div class="work">
+      <img src="Projekat2.jpg">
+      <div class="layer">
+        <h3>Innovation meets intention.</h3>
+        <p>We’ve created a solution where biopolymers replace plastic —
+            realized through a 3D-modeled prototype: visually identical, fundamentally different in purpose.</p>
+      </div>
+    </div>
+    <div class="work">
+      <img src="Projekat3.jpg">
+      <div class="layer">
+        <h3>"Waste Transformed Into Design.</h3>
+        <p>Each prototype is 3D-printed with recycled plastic filament, merging advanced production with environmental responsibility.</p>
+      </div>
+    </div>
+
+    <div class="work">
+      <img src="Projekat4.jpg">
+      <div class="layer">
+        <h3>Ergonomics with purpose.</h3>
+        <p>Our smallest bottle is child-safe — unbreakable, palm-friendly, and spill-resistant.
+            Each cap is tailored with a unique mechanism, designed to meet specific user needs.</p>
+      </div>
+    </div>
+
+    <div class="work">
+      <img src="Projekat5.jpg">
+      <div class="layer">
+        <h3>Designed for movement.</h3>
+        <p>The 500 ml bottle features a wider neck for easier drinking.
+            Its ergonomic grip allows for a clip attachment — perfect for physical activity.
+            The base is stable and designed to maintain balance and pressure control.</p>
+      </div>
+    </div>
+
+    <div class="work">
+      <img src="Projekat6.jpg">
+      <div class="layer">
+        <h3>Smartly shaped for full control.</h3>
+        <p>For larger bottles, a narrow neck reduces spillage, while dual tapered zones make the bottle easy to hold and handle — at any volume.</p>
+      </div>
+    </div>
+
+    <div class="work">
+      <img src="Projekat7.jpg">
+      <div class="layer">
+        <h3>No more tea bags full of microplastics.</h3>
+        <p>Our packaging lets you mix & scoop loose tea as you like, with a secure, pressure-sealed cap.
+            The best part? It’s biodegradable — and reusable many times.</p>
+      </div>
+    </div>
+
+    <div class="work">
+      <img src="Projekat8.jpg">
+      <div class="layer">
+        <h3>Sustainability isn’t a trend — it’s a responsibility.</h3>
+        <p>Our commitment to sustainability supports every brand that shares our values.
+            Every piece of promotional material can be a step toward a better future — and we’re here to lead that step forward.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact Section -->
+
+ <!-- DESKTOP verzija -->
+<section class="Contact desktop-only">
+  <img src="Contact_headline.png" alt="contact">
+</section>
+
+<!-- MOBILNA verzija -->
+<section class="Contact mobile-only">
+  <img src="Tel_Contact_headline.png" alt="contact mobile">
+</section>
+
+  <div id="contact">
+    <div class="container">
+      <form class="contact-form">
+        <input type="text" name="Name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn-submit">Submit</button>
+      </form>
+    </div>
+  </div>
+  <div class="social-icons">
+    <a href="https://www.instagram.com/beescre?igsh=aXJlaWIzbHMxbnZx" target="_blank" aria-label="Instagram">
+      <i class="fab fa-instagram"></i>
+    </a>
+    <a href="https://www.facebook.com/share/1DebJHECJY/?mibextid=wwXIfr" target="_blank" aria-label="Facebook">
+      <i class="fab fa-facebook-f"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/beescreative-doo/" target="_blank" aria-label="LinkedIn">
+      <i class="fab fa-linkedin-in"></i>
+    </a>
+  </div>
+<script>
+function toggleMenu() {
+  const menu = document.getElementById('mobileMenu');
+  const hamburger = document.getElementById('hamburger');
+  menu.classList.toggle('active');
+  hamburger.classList.toggle('hide');
+}
+
+window.addEventListener("scroll", function () {
+  const hamburger = document.getElementById("hamburger");
+  const mainPage = document.querySelector("#mainpage, #mainpage-mobile");
+
+  if (!mainPage) return; 
+
+  const rect = mainPage.getBoundingClientRect();
+  if (rect.bottom <= 0) {
+    hamburger.style.display = "none";
+  } else {
+    hamburger.style.display = "flex";
+  }
+});
+
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener("click", function (e) {
+    e.preventDefault();
+    const target = document.querySelector(this.getAttribute("href"));
+    if (target) {
+      window.scrollTo({
+        top: target.offsetTop,
+        behavior: "smooth"
+      });
+    }
+  });
+});
+</script>
